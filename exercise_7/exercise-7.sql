@@ -20,7 +20,7 @@ ON
 LEFT JOIN
     address
 ON
-    address.adress_id = customer.address_id
+    address.address_id = customer.address_id
 LEFT JOIN
     city
 ON 
